@@ -58,3 +58,7 @@ th{
 td:hover{
     background-color: pink;
 }
+
+.tachado {
+    text-decoration: line-through;
+}

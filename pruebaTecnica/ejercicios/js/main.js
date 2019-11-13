@@ -23,3 +23,9 @@ function buscarVoluntario()
     var personas = ["Alejandro", "JuanCarlos", "Cristian", "Iñigo", "Erlantz", "Raul", "Joseba", "Endika", "ana", "maria", "mikel", "Aitor", "kiryl", "iker"];   
     document.getElementById('nombre').innerHTML = (personas[Math.floor(Math.random() * personas.length)])
 }
+
+function Sumar()
+{
+    var numero = 0;
+    document.getElementById('numero').innerHTML = numero + 1;
+}
