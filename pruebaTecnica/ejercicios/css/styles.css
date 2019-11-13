@@ -1,0 +1,60 @@
+/*
+    Hoja de estilos, esto es un comentario de bloque y css solo permite estos estilos
+    @author Alejandro
+    @version 1.0
+    @licencia: mit
+    @tags: css, basic, etc
+*/
+
+/*
+    afecta a todo el bloque h1
+*/
+
+
+h1
+{
+    color: #0099CC;
+    font-size: 3em;
+    font-family: courier;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url(/ejercicios/images/Office.jpg);
+  
+    /* Set a specific height */
+    height: 750px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+table{
+    margin: auto;
+}
+td{    
+    border: 1px solid #000000; /* Abreviación */
+    text-align: center;
+}
+th{
+    border: 1px solid #000000;
+    text-transform: uppercase;
+    text-shadow: red;
+}
+
+/*
+    hover se utiliza para cuando se pone el curso encima (en este caso encima del td)
+*/
+td:hover{
+    background-color: pink;
+}
