@@ -1,0 +1,74 @@
+h1 {
+
+    color: teal;
+    border: 5px solid green;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+
+    /*
+    Valor global:
+    padding: 20px;
+
+    Asignacion individual:
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding 20px 40px;  valores verticales y horizontales
+    padding 20px 40px 50px;  valores arriba, horizontale y abajo
+    padding 20px 40px 50px 100px;  valores arriba, derecha, abajo y izquierda
+
+    margin: margen que hay entre el borde y el exterior
+    border: borde de la caja
+    padding: margen interno al contenido (el hueco que hay entre el borde y el texto)
+    texto: el texto de la caja
+
+
+    */
+}
+span{
+    border: 3px dotted red;
+    padding: 5px;
+}
+p{
+    border: 1px solid blue;
+    padding: 5px;
+}
+.box1{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 10px;
+
+    color: white;
+    text-align: center;
+    font-size: 5px;
+}
+
+.box2{
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 10px;
+
+    color: white;
+    text-align: center;
+    font-size: 5px;
+}
+section{
+    border: 5px solid black;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+body{
+    margin: 50px;
+}
