@@ -1,6 +1,36 @@
-
 h1 {
     color: rgb(221, 57, 57);
     font-size: 3em;
     font-family: courier;
+}
+
+a:active {
+    color: red
+}
+
+h2:hover {
+    color: blue
+}
+
+div:hover {
+    background-color: yellow
+}
+
+.container p {
+    color: orange;
+}
+
+.container p span {
+    background: green;
+}
+
+p .especial {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* seleciona solo los parrafos con la clase especial, no es descendiente*/
+p.especial2 {
+    color: purple;
+    background-color: #fff;
 }
