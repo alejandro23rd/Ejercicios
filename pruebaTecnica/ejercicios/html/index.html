@@ -1,90 +1,25 @@
-<!-- DOCTYPE indica el tipo que es el proyecto -->
-<!--Live server, es un paquete que se usa para refrescar la pagina continuamente-->
 <!DOCTYPE html> 
-<!-- el atributo lang indica al navegador el idioma en el que esta escrito -->
 <html lang="en">
     <head>
-        <!-- charset UTF8 permite utilizar los caracteres ASCCI -->
         <meta charset="UTF-8">
-        <!-- vieport sirve para hacer responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Titulo del documento -->
-        <title>Prueba Tecnica</title>       
-        <!--Significa que todas las url se contruyen a partir del directorio raiz-->
+        <title>Pagina principal para ejercicios</title>       
         <base href = "/pruebaTecnica/">
-        <!-- estilos -->
-        <!-- se utiliza el siguiente link para vicular el index a la pagina de estilos -->
         <link rel="stylesheet" href="ejercicios/css/styles.css">
 
     </head>
     <body>
+        <h1>Pagina Principal</h1>
+            <header>
+                    <ul>
+                        <li><a href = "ejercicios/html/CSSBasico.html" target="_blank">CSSBasico</a></li>
+                        <li><a href = "ejercicios/html/EtiquetasDeHtml.html" target="_blank">EtiquetasDeHtml</a></li>
+                        <li><a href = "https://www.aulaclic.es/html/t_9_1.htm" target="_blank">qwe</a></li>
+                        
+                    </ul>
+            </header>
 
-        <div>
-            <h1>Prueba tecnica</h1>
-        </div>
-        <!-- tamaño de titulos-->
-        
-
-        <div class="parallax"></div>
-
-        <!--Introducir un enlace-->
-        <!--Se utiliza target _blank para que se te abra en otra pagina-->
-        <a target = "_blank" href="https://www.w3schools.com/"> Documentacion de w3schools </a>
-
-
-         <!-- creacion de tablas-->
-         <!-- tr significa las filas-->
-         <!-- th se refiere al titulo de la columna-->
-         <!-- td se refiere a cada espacio-->
-         <div>
-                <h2>¿El Voluntario es? <span id = nombre>...suerte</span></h2>
-                <button onclick ="buscarVoluntario()">¿Quien leera?</button>
-        </div>
-         
-        <!--creacion de una tabla-->
-         <table id="ipartek" class="tabla de names">
-            <tr>        
-                <th>Fila derecha</th>
-                <th>Fila Izquierda</th>             
-            </tr>
-            <tr>
-                <td colspan="2">Ander</td>      
-            </tr>
-            <tr>       
-                <td>Mikel</td>
-                <td>joseba</td>             
-            </tr>        
-            <tr>
-                <td>Hueco Vacio</td>
-                <td>Raul</td>       
-            </tr>
-            <tr>
-                <td>Erlatz</td>
-                <td>Cristian</td>       
-            </tr>
-            <tr>
-                <td>Ana</td>
-                <td>Alejandro</td>       
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>JuanCarlos</td>       
-            </tr>
-            <tr>
-                <td>kiryl</td>
-                <td>Iñigo</td>       
-            </tr>
-            <tr>        
-                <td>Iker</td>
-                <td>Endika</td>             
-            </tr>
-            <tr>        
-                <td></td>
-                <td>Aitor</td>             
-            </tr>           
-          </table>
-          
         <!-- javascript-->
         <script src="ejercicios/js/main.js"></script>
     </body>
