@@ -1,16 +1,49 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Prueba Tecnica</title>       
-        <base href = "/pruebaTecnica/">
-        <link rel="stylesheet" href="ejercicios/css/styles.css">
-        <a name="destino">Texto_del_destino</a>
 
-    </head>
-    <body>
-        <h1>CSSBasico</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba Tecnica</title>
+    <base href="/pruebaTecnica/">
+    <link rel="stylesheet" href="ejercicios/css/styles.css">
+
+</head>
+
+<body>
+    <h1>CSS Basico</h1>
+    <style>
+        .container p {
+            color: orange;
+        }
+
+        .container p span {
+            background: green;
+        }
+
+        p .especial {
+            font-size: 2em;
+            font-weight: 600;
+            /* bold */
+            ;
+        }
+
+        /* seleciona solo los parrafos con la clase especial, no es descendiente*/
+        p.especial2 {
+            color: purple;
+            background-color: #fff;
+        }
+    </style>
+    
+    <h2>selector descendiente</h2>
+    <div class="container">
+
+        <p>qwewqe<span>HOLAAAAA</span>weqwe</p><code> div.container </code>
+        <p class="especial">qwewqe<span>HOLAAAAA</span>weqwe</p>
+
+    </div>
+    <a href="ejercicios/html/index.html"> Indice</a>
+</body>
+
 </html>

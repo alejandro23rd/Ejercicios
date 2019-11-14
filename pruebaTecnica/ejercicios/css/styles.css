@@ -1,15 +1,3 @@
-/*
-    Hoja de estilos, esto es un comentario de bloque y css solo permite estos estilos
-    @author Alejandro
-    @version 1.0
-    @licencia: mit
-    @tags: css, basic, etc
-*/
-
-/*
-    afecta a todo el bloque h1
-*/
-
 
 h1
 {
@@ -61,4 +49,10 @@ td:hover{
 
 .tachado {
     text-decoration: line-through;
+}
+
+code{
+    color: red;
+    background-color: #888;
+    font-family: monospace;
 }
