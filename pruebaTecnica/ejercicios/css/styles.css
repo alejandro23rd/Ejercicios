@@ -1,6 +1,4 @@
-
-h1
-{
+h1 {
     color: #0099CC;
     font-size: 3em;
     font-family: courier;
@@ -12,38 +10,38 @@ h1
     text-align: center;
 }
 
-.parallax { 
+.parallax {
     /* The image used */
     background-image: url(/pruebaTecnica/ejercicios/images/Office.jpg);
-  
+
     /* Set a specific height */
-    height: 750px; 
-  
+    height: 750px;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 
-table{
+table {
     margin: auto;
 }
-td{    
-    border: 1px solid #000000; /* Abreviación */
+
+td {
+    border: 1px solid #000000;
+    /* Abreviación */
     text-align: center;
 }
-th{
+
+th {
     border: 1px solid #000000;
     text-transform: uppercase;
     text-shadow: red;
 }
 
-/*
-    hover se utiliza para cuando se pone el curso encima (en este caso encima del td)
-*/
-td:hover{
+td.hover {
     background-color: pink;
 }
 
@@ -51,7 +49,7 @@ td:hover{
     text-decoration: line-through;
 }
 
-code{
+code {
     color: red;
     background-color: #888;
     font-family: monospace;
