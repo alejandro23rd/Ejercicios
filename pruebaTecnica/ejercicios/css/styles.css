@@ -7,6 +7,9 @@
 6º id y cosas particulares
 */
 
+body{
+    background-color: rgb(190, 190, 190);
+}
 h1 {
     color: #0099CC;
     font-family: courier;
@@ -29,6 +32,11 @@ h2{
     font-weight: bold;
     text-align: left;
 }
+p{
+    font-family: 'Times New Roman';
+    text-align: justify;
+
+}
 
 nav {
     border-top: 5px solid black;
@@ -39,7 +47,7 @@ nav {
 }
 ul{
     background-color: grey;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 
 }
@@ -62,6 +70,7 @@ section{
     margin: 10px;
     border: 1px solid black;
     padding: 5px;
+    background-color: rgb(226, 226, 226);
 }
 
 .intro {
@@ -74,6 +83,10 @@ section{
     background-color: gray;
     height: 100vh;
 }
+.columna1{
+    margin: 100px;
+}
+
 
 td {
     border: 1px solid #000000;
