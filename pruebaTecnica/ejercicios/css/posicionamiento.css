@@ -1,0 +1,13 @@
+div img {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.contenedor{
+  overflow: hidden;
+}
+.contenedor .texto{
+  background-color: rgb(128, 128, 128);
+  position: absolute;
+}
