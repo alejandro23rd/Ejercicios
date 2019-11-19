@@ -13,6 +13,32 @@
 </head>
 
 <body>
+    <style>
+        p.ejemplo {
+            color: rgb(38, 255, 0);
+        }
+
+        /* selector mediante identificador */
+        #iden {
+            color: rgb(255, 0, 157)
+        }
+
+        /*dentro de la clase container, cambia todas las p */
+        .container p {
+            color: orange;
+        }
+
+        /* dentro de la clase container, dentro de la etiqueta p, dentro de la etiqueta span */
+        .container p span {
+            background: green;
+        }
+
+        /* dentro de la etiqueta p, seleciona solo los parrafos con la clase especial, no es descendiente*/
+        p.especial2 {
+            color: purple;
+            background-color: rgb(184, 184, 184);
+        }
+    </style>
     <h1>Selectores Basicos</h1>
     <a href="ejercicios/html/index.html"> Indice</a>
 
