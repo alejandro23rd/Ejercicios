@@ -1,7 +1,7 @@
 h1 {
 
     color: teal;
-    border: 5px solid green;
+    border: 5px solid blue;
     text-align: center;
     margin: 10px;
     padding: 20px;
@@ -24,8 +24,6 @@ h1 {
     border: borde de la caja
     padding: margen interno al contenido (el hueco que hay entre el borde y el texto)
     texto: el texto de la caja
-
-
     */
 }
 span{
