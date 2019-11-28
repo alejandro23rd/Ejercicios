@@ -1,0 +1,61 @@
+/* Clases */
+
+.nav {
+    background-color: yellow;
+    color: white;
+    min-height: 10vh;
+    text-align: center;
+
+}
+.fotter{
+    background-color: blue;
+    color: white;
+    min-height: 10vh;
+    text-align: center;
+}
+
+main{
+    min-height: 80vh;
+    padding: 5vw, 3vw;
+    background-color: green;
+    text-align: center;
+}
+
+.poster_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poster {
+    background: pink;
+    width: 100%;
+    min-height: 40vh;
+    margin-bottom: 5px;
+    padding: 5%;
+}
+
+.poster_content>div:last-child {
+    margin-bottom: 0;
+}
+
+/* Querys */
+/* Medium devices (mobile, 576px and up) */
+@media (min-width: 576px)
+{
+    .nav main{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .poster{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
