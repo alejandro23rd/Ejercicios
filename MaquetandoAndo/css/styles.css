@@ -34,19 +34,63 @@ footer {
 /* poster
 *************************************/
 
-.poster_content {}
-
 .poster_content .poster:last-child {
     margin-bottom: 0;
     background-color: teal;
 }
 
 .poster {
+    position: relative;
     background-color: indigo;
     width: 100%;
-    min-height: 40vh;
+    min-height: 70vh;
     margin-bottom: 20px;
+   /*background: url("/images/hister.png");*/ 
 }
+
+.poster>.titulo{
+    font-size: 23px;
+    color: yellow;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.poster>.titulo h1{
+    
+    text-align: center;
+    margin: 0;
+}
+
+.poster>.titulo h2{
+    text-align: center;
+    margin: 0;
+}
+
+.poster>.fotter_poster{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-top: 5px solid yellow;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.poster>.fotter_poster > .box {
+    text-align: center;
+    background-color: red;
+    margin: 5px;
+    padding: 20px;
+    font-size: 10px;
+    width: 20vh;
+  }
+
+
+
+
 
 /* media query para pantallas grandes
 *********************************************/
@@ -80,6 +124,7 @@ footer {
 
     .poster_content .poster:last-child {
         margin-bottom: 20px;
+        background: url("/images/CartelReal.jpg");
     }
 
 }
